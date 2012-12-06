@@ -1,0 +1,31 @@
+<html lang="en">
+    <head>
+        <title>music</title>
+        <link rel="stylesheet" href="/dojo/1.7.3/dijit/themes/claro/claro.css">
+        <link rel="stylesheet" href="/main.css">
+        <script>
+            var dojoConfig=(function(){
+                return {
+                    async:true,
+                    isDebug:true,
+                    parseOnLoad:true,
+                    packages:[{
+                        name:"music",
+                        location: location.origin+"/"
+                    }],
+                };
+
+            })();
+        </script>
+        <script src="/dojo/1.7.3/dojo/dojo.js"></script>
+        <script>
+            require(["music/AppController", "dojo/domReady!"],function(AppController){
+                (new AppController()).init();
+            });
+        </script>
+    </head>
+    <body class="claro">
+        <div id="mainViewWidgetDiv">
+        </div>
+    </body>
+</html>
