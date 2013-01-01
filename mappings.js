@@ -1,9 +1,9 @@
-var test=function(){}
+var test=function(){};
 var home=function(){
 
-  }
+  };
 var mappings={
     'test':test,
-    '/': home,
+    '^/$': home
 };
 exports.mappings=mappings;

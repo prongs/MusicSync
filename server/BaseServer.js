@@ -14,5 +14,5 @@ BaseServer.prototype.start = function(port) {
 	}
 	http.createServer(onRequest).listen(port);
 	console.log("Server has started.");
-}
+};
 exports.Server = BaseServer;

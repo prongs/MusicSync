@@ -1,6 +1,6 @@
 define(["dojo/_base/declare","./MainViewWidget","dojo/dom"],
 function(declare,MainViewWidget,dom){
-    return declare("chat.AppController",[], {
+    return declare("music.AppController",[], {
         init: function(){
             var self=this;
             var people=[

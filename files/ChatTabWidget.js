@@ -9,6 +9,6 @@ TabContainer,ContentPane
         constructor: function(args){
             var self=this;
             self.person=args.person;
-        },
+        }
         });
     });
